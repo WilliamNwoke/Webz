@@ -1,0 +1,159 @@
+body {
+    padding: 0;
+    margin: 0;
+    color:#Ae1818;
+    background-color: white;
+    font-family: 'mistral'
+}
+
+.navbar {
+    width: 100%;
+    border-radius: 0;
+    border-bottom: 1px solid #Ae1818;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4)
+}
+
+.navbar-header .navbar-brand {
+    color: #Ae1818;
+    font-family: 'mistral';
+    font-size: 30px;
+}
+
+.nav.navbar-nav li, .nav.navbar-nav li a{
+    color: #Ae1818;
+    font-size: 22px;
+    transition: 0.8s;
+    
+}
+
+.nav.navbar-nav li:hover > a{
+    color: #fff;
+    background-color: #Ae1818;
+}
+
+
+.red-page {
+    width: 100%;
+    background-color: #Ae1818;
+    /* background: linear-gradient(-45deg, #fef, white);         */
+    padding-bottom: 20px;
+}
+.red-page .box-text {
+    padding-bottom: 70px;
+}
+
+.landing-page {
+    padding-top: 10%;
+    min-height: 700px;
+}
+.white-text {
+    color: white;
+    font-family: inherit;
+}
+.white-text .heading-line {
+    border-color: white;
+}
+
+.large {
+    font-family: 'mistral';
+    font-size: 130px;
+    line-height: 0.6;
+    padding-top: 70px;
+    text-shadow: 2px 2px 4px #000000;    
+    
+}
+
+.small {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.heading {
+    margin-top: 100px;
+    font-family: 'mistral';
+}
+
+.heading-line {
+    width: 70px;
+    margin-bottom: 50px;        
+    border-bottom: 3px solid #Ae1818;
+}
+
+.content {
+    background: linear-gradient(-45deg, #fea, white);    
+}
+
+.box {
+    margin-bottom: 80px;
+    background-color: #fff;
+    height: 380px;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;  
+    position: relative; 
+}
+
+.box-image {
+    height: 65%;
+    width: 100%;
+
+}
+
+.box .box-text {
+    height: 35%;
+}
+.box-text {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:  italic;
+}
+
+.box-text-body {
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+span {
+    color: green;
+    border-bottom: 3px solid green;
+    font-family: 'mistral';
+}
+
+.fa {
+    font-size: 30px;    
+}
+
+.social-icon {
+    margin-top: 30px;
+}
+
+.social-icon i{
+    padding: 30px;
+    transition: 0.8s
+}
+
+.social-icon i:hover {
+    color: rgb(73, 10, 10);
+}
+
+@media (max-width: 400px) {
+    .box {
+        min-height: 300px;
+    }
+    .landing-image {
+        margin-top: 50px;
+    }
+    .large {
+        text-align: center;
+    }
+}
+
+@media (max-width: 960px) {
+    .content .container {
+        width: 100%;
+    }
+    .container {
+        padding: 10px;
+    }
+}
